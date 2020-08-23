@@ -1,23 +1,18 @@
-# vim 配置
+# 我的 vim 配置脚本
 
-## 克隆 amix 的 vim 配置(蛤蛤蛤~)
+> 只为方便我配置 vim 到新机器上，仓库都已导入到 gitee.com 加速。
+
+## 克隆的 amix 的 vim 配置(蛤蛤蛤~)
 
 ```bash
-git clone https://github.com/amix/vimrc.git
-# 或
-git@github.com:amix/vimrc.git
+git clone https://gitee.com/shrekuu/amix-vimrc.git
 ```
 
 ## 增加 monokai 配色
 
 ```bash
-git clone https://github.com/tomasr/molokai.git ~/.vim_runtime/my_plugins/molokai
-git clone https://github.com/fmoralesc/molokayo.git ~/.vim_runtime/my_plugins/molokayo
-
-# 或
-
-git clone git@github.com:tomasr/molokai.git ~/.vim_runtime/my_plugins/molokai
-git clone git@github.com:fmoralesc/molokayo.git ~/.vim_runtime/my_plugins/molokayo
+git clone https://gitee.com/shrekuu/vim-molokai.git ~/.vim_runtime/my_plugins/molokai
+git clone https://gitee.com/shrekuu/vim-molokayo.git ~/.vim_runtime/my_plugins/molokayo
 ```
 
 ## 创建个人配置文件
@@ -80,3 +75,12 @@ set nofoldenable
 好了, 预览一下:
 
 ![截图](https://camo.githubusercontent.com/4cd35820d082afc0fe12a2c1acbc809b8c7826d0/687474703a2f2f7777312e73696e61696d672e636e2f6c617267652f30303575683444536c79316676307a733661646b666a33306d683066797461792e6a7067)
+
+
+
+## 参考
+
+- https://github.com/amix/vimrc
+- https://github.com/tomasr/molokai
+- https://github.com/fmoralesc/molokayo
+
