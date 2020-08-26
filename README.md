@@ -13,7 +13,7 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 ## 增加 monokai 配色
 
 ```bash
-git clone https://gitee.com/shrekuu/vim-one-monokai.git ~/.vim_runtime/my_plugins
+git clone https://gitee.com/shrekuu/vim-one-monokai.git ~/.vim_runtime/my_plugins/one-monokai
 
 # 也可再装两个
 
