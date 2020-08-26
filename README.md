@@ -5,12 +5,18 @@
 ## 克隆的 amix 的 vim 配置(蛤蛤蛤~)
 
 ```bash
-git clone https://gitee.com/shrekuu/amix-vimrc.git
+git clone https://gitee.com/shrekuu/amix-vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+
 ```
 
 ## 增加 monokai 配色
 
 ```bash
+git clone https://github.com/fratajczak/one-monokai-vim.git ~/.vim_runtime/my_plugins
+
+# 也可再装两个
+
 git clone https://gitee.com/shrekuu/vim-molokai.git ~/.vim_runtime/my_plugins/molokai
 git clone https://gitee.com/shrekuu/vim-molokayo.git ~/.vim_runtime/my_plugins/molokayo
 ```
