@@ -1,25 +1,27 @@
 # 我的 vim 配置脚本
 
+![截图](./QQ20220103-123446@2x.png)
+
 > 只为方便我配置 vim 到新机器上，仓库都已导入到 gitee.com 加速。
 
 ## 克隆的 amix 的 vim 配置(蛤蛤蛤~)
 
 ```bash
-git clone https://gitee.com/shrekuu/amix-vimrc.git ~/.vim_runtime
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 ```
 
-## 增加 monokai 配色
+太慢就用国内服务器
+```bash
+git clone https://gitee.com/shrekuu/amix-vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+```
+
+## 增加 one-monokai 配色
 
 ```bash
 git clone https://gitee.com/shrekuu/vim-one-monokai.git ~/.vim_runtime/my_plugins/one-monokai
-
-# 也可再装两个
-
-git clone https://gitee.com/shrekuu/vim-molokai.git ~/.vim_runtime/my_plugins/molokai
-git clone https://gitee.com/shrekuu/vim-molokayo.git ~/.vim_runtime/my_plugins/molokayo
-```
 
 ## 创建个人配置文件
 
@@ -30,10 +32,9 @@ touch ~/.vim_runtime/my_configs.vim
 把下面的配置复制进去
 
 ```vim
-colorscheme molokai       " molokai color scheme
-" colorscheme molokayo      " molokai color scheme
+colorscheme one-monokai     " one molokai color scheme
 let g:molokai_original=1
-set background=dark
+set termguicolors
 
 set number                " set line number
 set showcmd               " show command when type
@@ -76,17 +77,10 @@ set nofoldenable
 
 " add syntax highlight for *.conf files
 :autocmd BufRead,BufNewFile logging.conf setf dosini
+
 ```
-
-好了, 预览一下:
-
-![截图](https://camo.githubusercontent.com/4cd35820d082afc0fe12a2c1acbc809b8c7826d0/687474703a2f2f7777312e73696e61696d672e636e2f6c617267652f30303575683444536c79316676307a733661646b666a33306d683066797461792e6a7067)
-
-
 
 ## 参考
 
 - https://github.com/amix/vimrc
-- https://github.com/tomasr/molokai
-- https://github.com/fmoralesc/molokayo
-
+- https://github.com/fratajczak/one-monokai-vim
