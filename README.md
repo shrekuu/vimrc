@@ -1,10 +1,8 @@
-# 我的 vim 配置脚本
+# My Vim Config
 
-![截图](./screenshot.png)
+![snapshot](./screenshot.png)
 
-> 只为方便我配置 vim 到新机器上，仓库都已导入到 gitee.com 加速。
-
-## 克隆的 amix 的 vim 配置(蛤蛤蛤~)
+## First, clone config from amix vimrc repo (hahahah~)
 
 ```bash
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
@@ -12,24 +10,18 @@ sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 ```
 
-太慢就用国内服务器
-```bash
-git clone https://gitee.com/shrekuu/amix-vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
-```
+## Add one-monokai theme
 
-## 增加 one-monokai 配色
+````bash
+git clone https://github.com/fratajczak/one-monokai-vim ~/.vim_runtime/my_plugins/one-monokai
 
-```bash
-git clone https://gitee.com/shrekuu/vim-one-monokai.git ~/.vim_runtime/my_plugins/one-monokai
-
-## 创建个人配置文件
+## Create my_configs.vim
 
 ```bash
 touch ~/.vim_runtime/my_configs.vim
-```
+````
 
-把下面的配置复制进去
+Copy and paste my configs into it.
 
 ```vim
 colorscheme one-monokai     " one molokai color scheme
@@ -80,7 +72,7 @@ set nofoldenable
 
 ```
 
-## 参考
+## References
 
 - https://github.com/amix/vimrc
 - https://github.com/fratajczak/one-monokai-vim
