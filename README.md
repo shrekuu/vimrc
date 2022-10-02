@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/shrekuu/vimrc/main/my_configs.vim -O ~/.v
 
 ## Manual Installation
 
-1. First, clone config from [amix's vimrc  repo](https://github.com/amix/vimrc) (hahahah~)
+1. First, clone config from [amix's vimrc  repo](https://github.com/amix/vimrc) (😅😅😅)
 
   ```bash
   git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
