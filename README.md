@@ -8,7 +8,7 @@
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 git clone https://github.com/fratajczak/one-monokai-vim ~/.vim_runtime/my_plugins/one-monokai
-wget https://raw.githubusercontent.com/shrekuu/vimrc/main/my_configs.vim -O ~/.vim_runtime/my_configs.vim
+curl -o ~/.vim_runtime/my_configs.vim https://raw.githubusercontent.com/shrekuu/vimrc/main/my_configs.vim
 ```
 
 ## Manual Installation
