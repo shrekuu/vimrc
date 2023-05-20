@@ -82,6 +82,13 @@ curl -o ~/.vim_runtime/my_configs.vim https://raw.githubusercontent.com/shrekuu/
   :autocmd BufRead,BufNewFile logging.conf setf dosini
 
   ```
+  
+## Troubleshooting
+
+- If you are using a Mac and your vim does not remember your last editing position, maybe your `~/.viminfo` [file has the wrong file permission](https://askubuntu.com/a/382523/596437). Make it yours by running this:
+  ```bash
+  sudo chown $(whoami) ~/.viminfo
+  ```
 
 ## References
 
