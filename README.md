@@ -11,7 +11,7 @@ git clone https://github.com/fratajczak/one-monokai-vim ~/.vim_runtime/my_plugin
 curl -o ~/.vim_runtime/my_configs.vim https://raw.githubusercontent.com/shrekuu/vimrc/main/my_configs.vim
 ```
 
-## Manual Installation
+## Step by Step Installation
 
 1. First, clone config from [amix's vimrc  repo](https://github.com/amix/vimrc) (😅😅😅)
 
