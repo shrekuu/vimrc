@@ -1,4 +1,4 @@
-# [Amix](https://github.com/amix/vimrc) Vim Config + [One Monokai Theme](https://github.com/fratajczak/one-monokai-vim)
+# [Amix](https://github.com/amix/vimrc) Vim Config + [fratajczak One Monokai Theme](https://github.com/fratajczak/one-monokai-vim)
 
 ![snapshot](./screenshot.png)
 
